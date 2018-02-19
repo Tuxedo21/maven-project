@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example.maven-project</groupId>
-  <artifactId>maven-proxy</artifactId>
+  <artifactId>DevOps-Maven-Jenkins-Nexus</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Maven Project</name>
@@ -21,14 +21,6 @@
     <module>webapp</module>
   </modules>
 
-  <!-- <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
-    </site>
-  </distributionManagement>
- -->
   <distributionManagement>
     <repository>
       <id>deployment</id>
