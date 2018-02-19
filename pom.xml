@@ -31,12 +31,12 @@
  -->
   <distributionManagement>
     <repository>
-      <id>nexus</id>
+      <id>deployment</id>
       <name>Releases</name>
       <url>http://35.227.88.150:8081/repository/maven-release-devops/</url>
     </repository>
     <snapshotRepository>
-      <id>nexus</id>
+      <id>deployment</id>
       <name>Snapshot</name>
       <url>http://35.227.88.150:8081/repository/maven-snapshots-devops/</url>
     </snapshotRepository>
